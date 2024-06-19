@@ -245,7 +245,7 @@ using namespace std;
 //array  using for loop / refe
 void dosomething(int arr[],int n) {
    arr[0] += 100;
-   cout<<"value inside function"<<arr[0]<<endl;
+   cout<<"value inside function"<<arr[0]<<endl;//105
 }
 int main() {
    int n = 5;
@@ -260,6 +260,8 @@ int main() {
    // }
 
    dosomething(arr,n);
-      cout<<"value inside int main"<<arr[0]<<endl;
+      cout<<"value inside int main"<<arr[0]<<endl;//105
    return 0;
+
+   //note:array always pass with ref.
 }
