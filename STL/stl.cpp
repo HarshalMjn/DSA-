@@ -15,14 +15,13 @@ void explainPair() {
 
     pair <int, int> arr[] = {{1,2,},{2,5},{5,1}};
     cout<<arr[1].second;//5
-    
-
-
 
 }
 
 //vector
 void explainVector() {
+
+    vector<int>v;
     
 
 
